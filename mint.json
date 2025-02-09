@@ -15,31 +15,179 @@
       "dark": "#0a080f"
     }
   },
- {
-  "navigation": {
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "quickstart",
-          {
-            "group": "Editing",
-            "icon": "pen-paintbrush",
-            "pages": ["development", "web-editor"]
-          }
-        ]
-      },
-      {
-        "group": "Writing Content",
-        "pages": ["writing-content/page", "writing-content/text"]
-      }
-    ]
-  }
-},
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:info@tac.build"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Developers",
+      "url": "developers"
+    },
+    {
+      "name": "API References",
+      "url": "developers/api-references"
+    },
+    {
+      "name": "Run a Node",
+      "url": "run-node"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Telegram",
+    "url": "https://t.me/TACbuild"
+  },
+  "anchors": [
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/TACbuild"
+    },
+    {
+      "name": "X (Twitter)",
+      "icon": "twitter",
+      "url": "https://x.com/TacBuild"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/TacBuild/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get-started/introduction",
+        "get-started/architecture",
+        "get-started/token-ops"
+      ]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": [
+        "core-concepts/what-is-tac",
+        "core-concepts/proxy-apps",
+        "core-concepts/cross-chain-messaging",
+        "core-concepts/sequencer-network"
+      ]
+    },
+    {
+      "group": "References",
+      "pages": [
+        "references/network-details",
+        "references/contract-addresses",
+        "references/example-applications"
+      ]
+    },
+    {
+      "group": "Contribute",
+      "pages": ["core-concepts/contribute"]
+    },
+    {
+      "group": "Get Started",
+      "pages": [
+        "developers/sdk/introduction",
+        {
+          "group": "Quickstart",
+          "pages": [
+            "developers/sdk/quickstart-onchain",
+            "developers/sdk/quickstart-frontend"
+          ]
+        },
+        {
+          "group": "Core Concepts",
+          "pages": [
+            "developers/sdk/core/sharded-messages",
+            "developers/sdk/core/transaction-tracking"
+          ]
+        },
+        {
+          "group": "Usage Guide",
+          "pages": [
+            "developers/sdk/usage/creating-instance",
+            "developers/sdk/usage/sending-transactions",
+            "developers/sdk/usage/transaction-status"
+          ]
+        },
+        "developers/sdk/api-reference",
+        "developers/sdk/types",
+        "developers/sdk/changelog"
+      ]
+    },
 
+    {
+      "group": "Guides",
+      "pages": ["developers/guides/hello-world", "developers/guides/uniswap-v2"]
+    },
+    {
+      "group": "API References",
+      "pages": [
+        {
+          "group": "Status",
+          "pages": ["developers/api-references/status/get-status"]
+        },
+        {
+          "group": "EVM",
+          "pages": [
+            "developers/api-references/evm/check-if-merkle-message-is-collected",
+            "developers/api-references/evm/check-if-merkle-message-is-executed",
+            "developers/api-references/evm/check-if-merkle-root-is-set"
+          ]
+        },
+        {
+          "group": "TVM",
+          "pages": [
+            "developers/api-references/tvm/check-if-tvm-merkle-message-is-collected",
+            "developers/api-references/tvm/check-if-tvm-merkle-message-is-executed",
+            "developers/api-references/tvm/check-if-merkle-root-is-set"
+          ]
+        },
+        {
+          "group": "Logs",
+          "pages": ["developers/api-references/logs/get-log-file-content"]
+        },
+        {
+          "group": "Shards statistics",
+          "pages": [
+            "developers/api-references/shards-statistics/get-number-of-user-shards"
+          ]
+        },
+        {
+          "group": "OperationId",
+          "pages": ["developers/api-references/operationid/get-operation-id"]
+        },
+        {
+          "group": "Time profiling",
+          "pages": [
+            "developers/api-references/time-profiling/get-stage-profiling"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Proxy",
+      "pages": ["developers/proxy/developing-proxy"]
+    },
+    {
+      "group": "Partner Integrations",
+      "pages": [
+        {
+          "group": "Oracles",
+          "pages": ["developers/partner-integrations/oracles/stork"]
+        }
+      ]
+    },
+    {
+      "group": "",
+      "pages": ["run-node/join-network"]
+    }
+  ],
   "theme": "prism",
   "footerSocials": {
-    "x": "https://x.com/hades_dev99",
-    "github": "https://github.com/HadesGuard"
+    "x": "https://x.com/TacBuild",
+    "github": "https://github.com/TacBuild"
   }
 }
