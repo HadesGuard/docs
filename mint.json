@@ -21,41 +21,6 @@
       "url": "mailto:info@tac.build"
     }
   ],
-  "tabs": [
-    {
-      "name": "Developers",
-      "url": "developers"
-    },
-    {
-      "name": "API References",
-      "url": "developers/api-references"
-    },
-    {
-      "name": "Run a Node",
-      "url": "run-node"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Telegram",
-    "url": "https://t.me/TACbuild"
-  },
-  "anchors": [
-    {
-      "name": "Telegram",
-      "icon": "telegram",
-      "url": "https://t.me/TACbuild"
-    },
-    {
-      "name": "X (Twitter)",
-      "icon": "twitter",
-      "url": "https://x.com/TacBuild"
-    },
-    {
-      "name": "Github",
-      "icon": "github",
-      "url": "https://github.com/TacBuild/"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
