@@ -3,9 +3,9 @@
   "name": "CerberusNode",
   "logo": {
     "dark": "/logo/logo.jpg",
-    "light": "/logo/logo.png"
+    "light": "/logo/logo.svg"
   },
-  "favicon": "./favicon.jpg",
+  "favicon": "./logo/logo.jpg",
   "colors": {
     "primary": "#91029B",
     "light": "#91029B",
