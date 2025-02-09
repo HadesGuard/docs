@@ -46,7 +46,7 @@
         "developers/sdk/types",
         "developers/sdk/changelog"
       ]
-    },
+    }
   ],
   "theme": "prism",
   "footerSocials": {
