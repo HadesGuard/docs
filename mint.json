@@ -20,7 +20,8 @@
       "group": "Services",
       "pages": [
         "services/RPC",
-        "services/Snapshot"
+        "services/Snapshot",
+        "services/Peers"
       ]
     },
     {
