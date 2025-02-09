@@ -40,7 +40,38 @@
         "references/contract-addresses",
         "references/example-applications"
       ]
-    }
+    },
+      {
+      "group": "Get Started",
+      "pages": [
+        "developers/sdk/introduction",
+        {
+          "group": "Quickstart",
+          "pages": [
+            "developers/sdk/quickstart-onchain",
+            "developers/sdk/quickstart-frontend"
+          ]
+        },
+        {
+          "group": "Core Concepts",
+          "pages": [
+            "developers/sdk/core/sharded-messages",
+            "developers/sdk/core/transaction-tracking"
+          ]
+        },
+        {
+          "group": "Usage Guide",
+          "pages": [
+            "developers/sdk/usage/creating-instance",
+            "developers/sdk/usage/sending-transactions",
+            "developers/sdk/usage/transaction-status"
+          ]
+        },
+        "developers/sdk/api-reference",
+        "developers/sdk/types",
+        "developers/sdk/changelog"
+      ]
+    },
   ],
   "theme": "prism",
   "footerSocials": {
