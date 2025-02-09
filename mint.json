@@ -19,7 +19,8 @@
     {
       "group": "Services",
       "pages": [
-        "services/API & SYNC"
+        "services/RPC",
+        "services/Snapshot"
       ]
     },
     {
