@@ -19,9 +19,9 @@
     {
       "group": "Services",
       "pages": [
-        "services/RPC",
-        "services/Snapshot",
-        "services/Peers"
+        "services/rpc",
+        "services/snapshot",
+        "services/peers"
       ]
     },
     {
