@@ -1,0 +1,48 @@
+.services-container {
+    display: flex;  /* Switch from grid to flexbox */
+    flex-wrap: wrap;  /* Allow wrapping to new lines */
+    justify-content: space-between;  /* Distribute cards evenly */
+    gap: 10px;  /* Space between cards */
+    margin-top: 5px;
+  }
+  
+  .service-card {
+    background: #0d0d25;
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    
+    flex: 0 0 calc(33.33% - 10px);  /* Force 3 cards per row, subtracting the gap */
+    box-sizing: border-box;  /* Ensure padding doesn’t affect width */
+  }
+  
+  .service-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-card .service-icon {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+  }
+  
+  .service-card .service-title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+  
+  .service-card .service-description {
+    font-size: 0.7rem;
+    color: #a3a3c2;
+  }
+  
+  .service-card.highlight {
+    border: 1px solid #ff7f50;
+    background: radial-gradient(circle at top left, #1e1e40, #0d0d25);
+  }
+  

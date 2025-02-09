@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "CerberusNode",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.jpg",
+    "light": "/logo/logo.png"
   },
   "favicon": "./favicon.jpg",
   "colors": {
@@ -17,44 +17,26 @@
   },
   "navigation": [
     {
-      "group": "Services",
-      "pages": [
-        "services/rpc",
-        "services/snapshot",
-        "services/peers"
-      ]
+      "group": "",
+      "pages": ["introduction"]
     },
     {
       "group": "Network",
       "pages": [
         {
           "group": "Mainnet",
-          "pages": [
-            "mainnet/namada"
-          ]
+          "pages": ["mainnet/namada"]
         },
         {
           "group": "Testnet",
-          "pages": [
-            "testnet/0g-labs",
-            "testnet/tac-build",
-             "testnet/pell"
-          ]
+          "pages": ["testnet/0g-labs", "testnet/tac-build", "testnet/pell"]
         }
-      ]
-    },
-    {
-      "group": "Community",
-      "pages": [
-        "community/faq",
-        "community/roadmap",
-        "community/whitepaper"
       ]
     }
   ],
   "theme": "prism",
   "footerSocials": {
-    "x": "https://x.com/TacBuild",
-    "github": "https://github.com/TacBuild"
+    "x": "https://x.com/hades_dev99",
+    "github": "https://github.com/HadesGuard"
   }
 }
