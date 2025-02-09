@@ -17,21 +17,30 @@
   },
   "navigation": [
     {
-      "group": "Mainnet",
-      "pages": [
-        "developers/sdk/introduction",
-        "developers/sdk/api-reference",
-        "developers/sdk/types",
-        "developers/sdk/changelog"
-      ]
+      "group": "Services",
+      "pages": ["core-concepts/contribute"]
     },
     {
-      "group": "Testnet",
+      "group": "Network",
       "pages": [
-        "developers/sdk/introduction",
-        "developers/sdk/api-reference",
-        "developers/sdk/types",
-        "developers/sdk/changelog"
+        {
+          "group": "Mainnet",
+          "pages": [
+            "developers/sdk/introduction",
+            "developers/sdk/api-reference",
+            "developers/sdk/types",
+            "developers/sdk/changelog"
+          ]
+        },
+        {
+          "group": "Testnet",
+          "pages": [
+            "developers/sdk/introduction",
+            "developers/sdk/api-reference",
+            "developers/sdk/types",
+            "developers/sdk/changelog"
+          ]
+        }
       ]
     },
     {
