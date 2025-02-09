@@ -16,32 +16,7 @@
     }
   },
   "navigation": [
-    {
-      "group": "Services",
-      "pages": [
-        "get-started/introduction",
-        "get-started/architecture",
-        "get-started/token-ops"
-      ]
-    },
-    {
-      "group": "Mainnet",
-      "pages": [
-        "core-concepts/what-is-tac",
-        "core-concepts/proxy-apps",
-        "core-concepts/cross-chain-messaging",
-        "core-concepts/sequencer-network"
-      ]
-    },
-    {
-      "group": "Testnet",
-      "pages": [
-        "references/network-details",
-        "references/contract-addresses",
-        "references/example-applications"
-      ]
-    },
-      {
+       {
       "group": "Services",
       "pages": [
         "get-started/introduction",
@@ -72,6 +47,24 @@
         "developers/sdk/changelog"
       ]
     },
+    {
+      "group": "Mainnet",
+      "pages": [
+        "core-concepts/what-is-tac",
+        "core-concepts/proxy-apps",
+        "core-concepts/cross-chain-messaging",
+        "core-concepts/sequencer-network"
+      ]
+    },
+    {
+      "group": "Testnet",
+      "pages": [
+        "references/network-details",
+        "references/contract-addresses",
+        "references/example-applications"
+      ]
+    },
+   
   ],
   "theme": "prism",
   "footerSocials": {
