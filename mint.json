@@ -21,30 +21,17 @@
       "pages": [
         "get-started/introduction",
         {
-          "group": "Quickstart",
+          "group": "Introduction",
           "pages": [
-            "developers/sdk/quickstart-onchain",
-            "developers/sdk/quickstart-frontend"
+            "get-started/introduction"
           ]
         },
         {
-          "group": "Core Concepts",
+          "group": "Architecture",
           "pages": [
-            "developers/sdk/core/sharded-messages",
-            "developers/sdk/core/transaction-tracking"
+            "get-started/architecture"
           ]
-        },
-        {
-          "group": "Usage Guide",
-          "pages": [
-            "developers/sdk/usage/creating-instance",
-            "developers/sdk/usage/sending-transactions",
-            "developers/sdk/usage/transaction-status"
-          ]
-        },
-        "developers/sdk/api-reference",
-        "developers/sdk/types",
-        "developers/sdk/changelog"
+        }
       ]
     },
     {
