@@ -15,44 +15,28 @@
       "dark": "#0a080f"
     }
   },
-  "navigation": [
-       {
-      "group": "Services",
-      "pages": [
-        "get-started/introduction",
-        {
-          "group": "Introduction",
-          "pages": [
-            "get-started/introduction"
-          ]
-        },
-        {
-          "group": "Architecture",
-          "pages": [
-            "get-started/architecture"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Mainnet",
-      "pages": [
-        "core-concepts/what-is-tac",
-        "core-concepts/proxy-apps",
-        "core-concepts/cross-chain-messaging",
-        "core-concepts/sequencer-network"
-      ]
-    },
-    {
-      "group": "Testnet",
-      "pages": [
-        "references/network-details",
-        "references/contract-addresses",
-        "references/example-applications"
-      ]
-    },
-   
-  ],
+ {
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "quickstart",
+          {
+            "group": "Editing",
+            "icon": "pen-paintbrush",
+            "pages": ["development", "web-editor"]
+          }
+        ]
+      },
+      {
+        "group": "Writing Content",
+        "pages": ["writing-content/page", "writing-content/text"]
+      }
+    ]
+  }
+}
+
   "theme": "prism",
   "footerSocials": {
     "x": "https://x.com/hades_dev99",
